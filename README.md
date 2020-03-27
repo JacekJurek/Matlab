@@ -15,7 +15,7 @@ turboSubplot(rows, columns, images, titles, 'filename');
 
 ### turboSubplotWithTypes
 For plot type, make a cell which contains two cells: <br>
-image5 = {pomx; pomy}; <br>
+image5 = {x; y}; <br>
 types = {'image'; 'hist'; 'histeqImage'; 'histeq'; 'plot'; 'image'}; <br>
 turboSubplotWithTypes(rows, columns, images, titles, types, 'filename');
 
