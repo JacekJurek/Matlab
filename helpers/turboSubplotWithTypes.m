@@ -14,6 +14,8 @@ for i=1:1:x
             imshow(histeq(images{i}));
         case 'histeq'
             imhist(histeq(images{i}));
+        case 'plot'
+            plot(images{i}{1}, images{i}{2});
         otherwise
             disp(['invalid type for i=' num2str(i) ]);
     end
